@@ -102,4 +102,61 @@ struct Evolution {
 
         """)
     }
+
+    @Test(.enabled(if: gtfsAvailable))
+    func naiveVersion() throws {
+        let clock = ContinuousClock()
+
+        // Warm-up
+        let _ = try String(contentsOf: gtfsURL, encoding: .utf8)
+
+        let t0 = clock.now
+        let text = try String(contentsOf: gtfsURL, encoding: .utf8)
+        let readTime = clock.now - t0
+
+        // A — components(separatedBy:): creates a String for every row and every field
+        func withComponents() -> Duration {
+            let t = clock.now
+            var fields = 0
+            for riga in text.components(separatedBy: "\n") {
+                fields += riga.components(separatedBy: ",").count
+            }
+            precondition(fields > 0)
+            return clock.now - t
+        }
+
+        // B — split(separator:): returns Substring, which are slices without copying
+        func withSplit() -> Duration {
+            let t = clock.now
+            var fields = 0
+            for riga in text.split(separator: "\n", omittingEmptySubsequences: false) {
+                fields += riga.split(separator: ",", omittingEmptySubsequences: false).count
+            }
+            precondition(fields > 0)
+            return clock.now - t
+        }
+
+        let a1 = withComponents()
+        let b1 = withSplit()
+        let b2 = withSplit()
+        let a2 = withComponents()
+
+        let driftA = abs(seconds(a1) - seconds(a2)) / seconds(a1) * 100
+        let driftB = abs(seconds(b1) - seconds(b2)) / seconds(b1) * 100
+
+        print("""
+
+        ── naive version — same 260 MB ──
+          String(contentsOf:)         \(String(format: "%.3f", seconds(readTime)))s
+          A. components(separatedBy:) \(String(format: "%.3f", seconds(a1)))s
+          B. split(separator:)        \(String(format: "%.3f", seconds(b1)))s
+
+          check order — A repeated \(String(format: "%.3f", seconds(a2)))s, B repeated \(String(format: "%.3f", seconds(b2)))s
+          drift: A \(String(format: "%.1f", driftA))%, B \(String(format: "%.1f", driftB))%
+
+        """)
+
+        #expect(driftA < 10)
+        #expect(driftB < 10)
+    }
 }
