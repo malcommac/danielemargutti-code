@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr-primary.swiftconstvalues",
+    "dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr-primary.d",
+    "diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr-primary.dia",
+    "emit-module-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr-primary-emit-module.dia",
+    "pch" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr-primary.swiftdeps"
+  },
+  "/Users/dan/Developer/RomaPocket/FastCSVEvolution/Sources/StageMemchr/StageMemchr.swift" : {
+    "index-unit-output-path" : "/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr.o",
+    "llvm-bc" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr.bc",
+    "object" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Release/StageMemchr-t.build/Objects-normal/arm64/StageMemchr.o"
+  }
+}

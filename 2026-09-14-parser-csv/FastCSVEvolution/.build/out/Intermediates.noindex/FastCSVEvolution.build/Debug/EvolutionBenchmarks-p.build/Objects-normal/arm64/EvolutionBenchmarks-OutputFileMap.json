@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks-primary.dia",
+    "emit-module-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks-primary-emit-module.dia",
+    "pch" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks-primary.swiftdeps"
+  },
+  "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/DerivedSources/test_entry_point.swift" : {
+    "const-values" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/test_entry_point.swiftconstvalues",
+    "dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/test_entry_point.d",
+    "diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/test_entry_point.dia",
+    "index-unit-output-path" : "/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/test_entry_point.o",
+    "llvm-bc" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/test_entry_point.bc",
+    "object" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/test_entry_point.o",
+    "swift-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/test_entry_point.swiftdeps",
+    "swiftmodule" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/test_entry_point~partial.swiftmodule"
+  },
+  "/Users/dan/Developer/RomaPocket/FastCSVEvolution/Tests/EvolutionBenchmarks/EvolutionBenchmarks.swift" : {
+    "const-values" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks.swiftconstvalues",
+    "dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks.d",
+    "diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks.dia",
+    "index-unit-output-path" : "/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks.o",
+    "llvm-bc" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks.bc",
+    "object" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks.o",
+    "swift-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks.swiftdeps",
+    "swiftmodule" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/EvolutionBenchmarks-p.build/Objects-normal/arm64/EvolutionBenchmarks~partial.swiftmodule"
+  }
+}

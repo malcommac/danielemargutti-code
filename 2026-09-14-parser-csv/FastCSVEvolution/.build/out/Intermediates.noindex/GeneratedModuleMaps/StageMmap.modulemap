@@ -1,0 +1,4 @@
+module StageMmap {
+header "StageMmap-Swift.h"
+export *
+}

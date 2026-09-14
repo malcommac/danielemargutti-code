@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks-primary.dia",
+    "emit-module-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks-primary-emit-module.dia",
+    "pch" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks-primary.swiftdeps"
+  },
+  "/Users/dan/Developer/RomaPocket/FastCSVEvolution/Sources/StageChunks/StageChunks.swift" : {
+    "const-values" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks.swiftconstvalues",
+    "dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks.d",
+    "diagnostics" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks.dia",
+    "index-unit-output-path" : "/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks.o",
+    "llvm-bc" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks.bc",
+    "object" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks.o",
+    "swift-dependencies" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks.swiftdeps",
+    "swiftmodule" : "/Users/dan/Developer/RomaPocket/FastCSVEvolution/.build/out/Intermediates.noindex/FastCSVEvolution.build/Debug/StageChunks-t.build/Objects-normal/arm64/StageChunks~partial.swiftmodule"
+  }
+}

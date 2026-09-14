@@ -1,0 +1,14 @@
+Target dependency graph (5 targets)
+Target 'AllIncludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'EvolutionBenchmarks-product' in project 'FastCSVEvolution'
+➜ Dependency on target 'EvolutionBenchmarks-product' in project 'FastCSVEvolution' via transitive dependency through 'EvolutionBenchmarks-test-runner'
+➜ Explicit dependency on target 'StageMmap' in project 'FastCSVEvolution'
+➜ Explicit dependency on target 'StageMemchr' in project 'FastCSVEvolution'
+➜ Explicit dependency on target 'StageChunks' in project 'FastCSVEvolution'
+Target 'EvolutionBenchmarks-product' in project 'FastCSVEvolution'
+➜ Explicit dependency on target 'StageChunks' in project 'FastCSVEvolution'
+➜ Explicit dependency on target 'StageMmap' in project 'FastCSVEvolution'
+➜ Explicit dependency on target 'StageMemchr' in project 'FastCSVEvolution'
+Target 'StageMemchr' in project 'FastCSVEvolution' (no dependencies)
+Target 'StageMmap' in project 'FastCSVEvolution' (no dependencies)
+Target 'StageChunks' in project 'FastCSVEvolution' (no dependencies)
