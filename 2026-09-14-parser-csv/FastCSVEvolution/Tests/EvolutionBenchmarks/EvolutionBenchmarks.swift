@@ -16,7 +16,11 @@ import StageMemchr
 // concurrent benchmarks fight over CPU and memory.
 
 private let gtfsURL = URL(
-    fileURLWithPath: "/Users/dan/Developer/RomaPocket/rome_static_gtfs/stop_times.txt"
+    // In order to use the same data you may download the GTFS static map package from here:
+    // <https://dati.comune.roma.it/catalog/dataset/c_h501-d-9000>
+    // and extract the zip file (https://dati.comune.roma.it/catalog/dataset/c_h501-d-9000#)
+    // `stop_times.txt` is inside.
+    fileURLWithPath: "~/PATH/stop_times.txt"
 )
 
 private let gtfsAvailable = FileManager.default.fileExists(atPath: gtfsURL.path)
