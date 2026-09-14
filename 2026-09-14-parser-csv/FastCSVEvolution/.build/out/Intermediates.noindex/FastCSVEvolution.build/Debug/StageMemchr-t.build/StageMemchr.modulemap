@@ -1,4 +1,0 @@
-module StageMemchr {
-header "StageMemchr-Swift.h"
-export *
-}

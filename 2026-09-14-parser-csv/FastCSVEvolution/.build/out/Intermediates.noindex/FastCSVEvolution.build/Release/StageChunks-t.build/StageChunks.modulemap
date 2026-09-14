@@ -1,4 +1,0 @@
-module StageChunks {
-header "StageChunks-Swift.h"
-export *
-}
